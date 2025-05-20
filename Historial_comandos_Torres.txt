@@ -1,0 +1,117 @@
+    1  ssh-keygen
+    2  cd
+    3  pwd
+    4  ls -la
+    5  cd .ssh/
+    6  ls -la
+    7  cat id_rsa.pub 
+    8  sudo apt install git
+    9  git --version
+   10  git clone git@github.com:Torres-valentina/TP_AySO.git
+   11  cp README miercoles4/
+   12  cp README.md
+   13  cp README TP_AySO/
+   14  cd ~
+   15  cd repogit/
+   16  cd TP_Ayso
+   17  cd TP_AySO
+   18  cd
+   19  pwd
+   20  git clone git@github.com:Torres-valentina/TP_AySO.git
+   21  cp README TP_AySO/
+   22  cd TP_AySO/
+   23  ls -la
+   24  cd
+   25  ls -l
+   26  ls -l repogit/
+   27  mv TP_AySO/ repogit/
+   28  cd repogit/
+   29  TP_AySO/
+   30  pwd
+   31  cd TP_AySO/
+   32  pwd
+   33  os-release
+   34  cat /etc/os-release
+   35  man grep
+   36  grep HOME_URL /etc/os-release
+   37  grep home_ur /etc/os-release
+   38  grep -i home_ur /etc/os-release
+   39  grep -i home_ur /etc/os-release > datos_url.txt
+   40  cat datos_url.txt
+   41  whoami
+   42  echo "Usuario=$(whoami)" > datos_usuario.txt 
+   43  cta datos_usuario.txt 
+   44  cat datos_usuario.txt 
+   45  ls -l
+   46  git add .
+   47  git commit -m "ADD: Añadiendo datos del usuario t URL"
+   48  git config --global user.email torresvalentinaabril.01@gmail.com
+   49  git config --global user.name Torres-valentina
+   50  git commit -m "ADD: Añadiendo datos del usuario t URL"
+   51  git status
+   52  git push origin main
+   53  ls -l README
+   54  git rm README
+   55  git commit -m "Eliminando README de mas"
+   56  git push origin main
+   57  cat /proc/cpuinfo
+   58  grep "model name" /proc/cpuinfo >> datos_usuario.txt 
+   59  cat datos_usuario.txt 
+   60  vim datos_usuario.txt 
+   61  cat datos_usuario.txt 
+   62  vim datos_usuario.txt 
+   63  cat datos_usuario.txt 
+   64  grep "model name" /proc/cpuinfo >> datos_usuario.txt | awk -f ':' '{print$2}'
+   65  grep "model name" /proc/cpuinfo >> datos_usuario.txt | awk -F ':' '{print$2}'
+   66  grep "model name" /proc/cpuinfo >> datos_usuario.txt
+   67  cat datos_usuario.txt 
+   68  vim datos_usuario.txt 
+   69  cat datos_usuario.txt 
+   70  grep "model name" /proc/cpuinfo | awk -F ':' '{print$2}'
+   71  grep "model name" /proc/cpuinfo | awk -F ':' '{print$2}' | head -n1
+   72  grep "model name" /proc/cpuinfo | awk -F ':' '{print$2}' | head -n1 >> datos_usuario.txt 
+   73  cat datos_usuario.txt 
+   74  git add .
+   75  git commit -m "FEAT: Añadiendo informacion de CPU"
+   76  git push origin main
+   77  cat << FIN >> README.md 
+Alumna:Valentina Abril Torres 
+Division: 117
+Turno: Mañana
+FIN
+
+   78  cat README.md 
+   79  git add README.md 
+   80  git datos_usuario.txt
+   81  git add datos_usuario.txt
+   82  git commit -m "ADD:Añadiendo readme y datos de usuario"
+   83  git pushorigin main
+   84  git push origin main
+   85  cd
+   86  pwd
+   87  mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+   88  sudo apt install tree
+   89  sudo snap install tree
+   90  tree materia1 materia2
+   91  cd
+   92  pwd
+   93  vim script_dir.sh
+   94  chmod +x script_dir.sh 
+   95  mv script_dir.sh ~/repogit/TP_AySO/
+   96  cd~/repogit/TP_AySO/
+   97  cd~/repogit/TP_AySO
+   98  cd ~/repogit/TP_AySO
+   99  git add .
+  100  git commit -m "ADD: Añadiendo script"
+  101  git push origin main
+  102  cd
+  103  pwd
+  104  cp ~.bash_history historial.txt
+  105  cp ~/.bash_history historial.txt
+  106  history
+  107  histor -a
+  108  history -a
+  109  cp ~/.bash_history ./Historial_comandos_Torres.txt
+  110  ls -l Historial_comandos_Torres.txt 
+  111  cat bash_history
+  112  history > Historial_comandos_Torres.txt 
